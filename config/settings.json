@@ -1,0 +1,29 @@
+{
+  "name": "test_mcp",
+  "version": "1.0.0",
+  "description": "测试 MCP 功能的仓库配置",
+  "author": "yiqzq",
+  "settings": {
+    "debug": true,
+    "logLevel": "info",
+    "maxRetries": 3,
+    "timeout": 30000
+  },
+  "features": [
+    "file_creation",
+    "directory_creation",
+    "branch_management",
+    "pull_requests"
+  ],
+  "dependencies": {
+    "github-api": "^3.4.0",
+    "axios": "^0.24.0",
+    "lodash": "^4.17.21"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "created": "2025-04-28T08:00:00Z",
+  "lastModified": "2025-04-28T08:00:00Z"
+}
